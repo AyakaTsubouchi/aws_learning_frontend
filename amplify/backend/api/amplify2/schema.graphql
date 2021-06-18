@@ -4,3 +4,11 @@ type Note @model {
   description: String
   image:String
 }
+type Product @model {
+  id: ID!
+  name: String!
+  description: String
+  image: String
+  price: String
+  stock: Boolean
+}
